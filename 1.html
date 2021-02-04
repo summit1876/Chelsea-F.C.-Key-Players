@@ -4,19 +4,32 @@
 <head>
   <title>Mason Mount</title>
   <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src = "color.js"></script>
+
 </head>
 
 <body>
   <h1><a href="index.html">Chelsea F.C. Key Players</a></h1>
-  <ol>
-    <li><a href="1.html">Mason Mount</a></li>
-    <li><a href="2.html">Cesar Azpilicueta</a></li>
-    <li><a href="3.html">Olivier Giroud</a></li>
-  </ol>
-  <h2><strong><u><a href="https://en.wikipedia.org/wiki/Mason_Mount" target="_blank" title="Mason Mount - Wikipedia">Mason Mount</a></u></strong></h2>
-  Mason Tony Mount (born 10 January 1999) is an English professional footballer who plays as an attacking or central midfielder for Premier League club Chelsea and the England national team.
-  Mount joined Chelsea at the age of six, and began his senior career on loan to Vitesse in the Dutch Eredivisie and Derby County in the Championship before making his Chelsea debut in 2019.
-  <img src="Mason Mount.jpg" width="80%">
+
+  <input id="night_day" type="button" value="night" onclick="
+  nightDayHandler(this);
+  ">
+
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">Mason Mount</a></li>
+      <li><a href="2.html">Cesar Azpilicueta</a></li>
+      <li><a href="3.html">Olivier Giroud</a></li>
+    </ol>
+    <div id="article">
+      <h2><strong><u><a href="https://en.wikipedia.org/wiki/Mason_Mount" target="_blank" title="Mason Mount - Wikipedia">Mason Mount</a></u></strong></h2>
+      Mason Tony Mount (born 10 January 1999) is an English professional footballer who plays as an attacking or central midfielder for Premier League club Chelsea and the England national team.
+      Mount joined Chelsea at the age of six, and began his senior career on loan to Vitesse in the Dutch Eredivisie and Derby County in the Championship before making his Chelsea debut in 2019.
+    </div>
+  </div>
+    <img src="Mason Mount.jpg" width="80%" style="margin-left:200px">
 </body>
 
 </html>

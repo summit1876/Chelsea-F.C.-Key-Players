@@ -4,20 +4,33 @@
 <head>
   <title>Olivier Giroud</title>
   <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src = "color.js"></script>
+
 </head>
 
 <body>
   <h1><a href="index.html">Chelsea F.C. Key Players</a></h1>
-  <ol>
-    <li><a href="1.html">Mason Mount</a></li>
-    <li><a href="2.html">Cesar Azpilicueta</a></li>
-    <li><a href="3.html">Olivier Giroud</a></li>
-  </ol>
-  <h2><a href="https://en.wikipedia.org/wiki/Olivier_Giroud" target="_blank" title="Olivier Giroud Wikipedia">Olivier Giroud</a></h2>
-  Olivier Jonathan Giroud (French pronunciation: ​[ɔlivje ʒiʁu]; born 30 September 1986) is a French professional footballer who plays as a forward for Premier League club Chelsea and the France national team.
-  He began his career at Grenoble in Ligue 2 before joining Tours in 2008. In his second season at Tours, he was the division's top scorer with 21 goals, earning him a move to top-flight side Montpellier. Giroud was again the top scorer with 21 goals in the 2011–12 season, giving the club their first ever Ligue 1 title before moving to Arsenal. Giroud won the FA Cup with Arsenal in 2014, 2015 and 2017, and totalled 105 goals in 253 games for the club. In January 2018, he transferred to Chelsea where, in his first full season, he became the first player from the club to score more than 10 goals in a single European campaign.
-  Giroud made his full international debut for France in 2011. He has since become the nation's second-highest goalscorer with 44 goals in 105 caps, and was part of the teams which reached the quarter-finals at UEFA Euro 2012 and the 2014 FIFA World Cup, the final of UEFA Euro 2016 (in which he received the Bronze Boot as joint second-highest goalscorer), and won the 2018 FIFA World Cup.
-  <img src="Olivier Giroud.jpg" width="80%">
+
+  <input id="night_day" type="button" value="night" onclick="
+  nightDayHandler(this);
+  ">
+
+  <div id = "grid">
+    <ol>
+      <li><a href="1.html">Mason Mount</a></li>
+      <li><a href="2.html">Cesar Azpilicueta</a></li>
+      <li><a href="3.html">Olivier Giroud</a></li>
+    </ol>
+    <div id = "article">
+    <h2><a href="https://en.wikipedia.org/wiki/Olivier_Giroud" target="_blank" title="Olivier Giroud Wikipedia">Olivier Giroud</a></h2>
+    Olivier Jonathan Giroud (French pronunciation: ​[ɔlivje ʒiʁu]; born 30 September 1986) is a French professional footballer who plays as a forward for Premier League club Chelsea and the France national team.
+    He began his career at Grenoble in Ligue 2 before joining Tours in 2008. In his second season at Tours, he was the division's top scorer with 21 goals, earning him a move to top-flight side Montpellier. Giroud was again the top scorer with 21 goals in the 2011–12 season, giving the club their first ever Ligue 1 title before moving to Arsenal. Giroud won the FA Cup with Arsenal in 2014, 2015 and 2017, and totalled 105 goals in 253 games for the club. In January 2018, he transferred to Chelsea where, in his first full season, he became the first player from the club to score more than 10 goals in a single European campaign.
+    Giroud made his full international debut for France in 2011. He has since become the nation's second-highest goalscorer with 44 goals in 105 caps, and was part of the teams which reached the quarter-finals at UEFA Euro 2012 and the 2014 FIFA World Cup, the final of UEFA Euro 2016 (in which he received the Bronze Boot as joint second-highest goalscorer), and won the 2018 FIFA World Cup.
+    </div>
+  </div>
+    <img src="Olivier Giroud.jpg" width="80%" style="margin-left:200px">
 </body>
 
 </html>
