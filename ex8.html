@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Object</h1>
+    <h2>Create</h2>
+    <script>
+      //객체 지정
+      var teams = {
+        "first" : "Manchester City",
+        "second" : "Manchester United"
+      };
+
+      //객체의 정보 출력
+      document.write("프리미어리그 현재 1등 : "+teams.first+"<br>");
+      document.write("프리미어리그 현재 2등 : "+teams.second+"<br>");
+
+      //객체에 정보 추가
+      teams.third = "Liverpool";
+      document.write("프리미어리그 현재 3등 : "+teams.third+"<br>");
+
+      //객체에 정보(띄어쓰기가 있는 부를이름) 추가
+      teams["four th"] = "Leister City";
+      document.write("프리미어리그 현재 4등 : "+teams["four th"]+"<br>");
+    </script>
+    <h2>Iterate</h2>
+    <script>
+      for(var key in teams) {
+        document.write(key+' : '+teams[key]+'<br>');
+      }
+    </script>
+
+  </body>
+</html>
